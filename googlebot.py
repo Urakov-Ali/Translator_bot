@@ -12,12 +12,12 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import CallbackQuery
 
  
-API_TOKEN = '5288499298:AAF6ndQ9h9GsuCnktm-rhXfmjlmb2wyBBmY'
+API_TOKEN = 'YOUR TOKEN HERE'
 tr =Translator()
 
 #calling our "Infos" class as an object
 x =Infos()
-Admin = int("1344241185")
+Admin = int("ADMIN'S ID HERE")
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
