@@ -185,7 +185,7 @@ async def time_hind(message: types.Message):
 	india_time =hind_time.strftime("%I:%M:%S %p")
 	await message.answer(india_time)
 
-@dp.message_handler(text="🇮🇳  Time in Idnia  🕔")
+@dp.message_handler(text="🇮🇳  Data in India  📅")
 async def data_hind(message: types.Message):
 	time = pytz.timezone('Asia/Kolkata')
 	hind_data =datetime.datetime.now(time)
@@ -207,7 +207,7 @@ async def time_spaine(message: types.Message):
 	spain_time =spanish_time.strftime("%I:%M:%S %p")
 	await message.answer(spain_time)
 
-@dp.message_handler(text="'🇪🇸  Data in Madrid  📅")
+@dp.message_handler(text='🇪🇸  Data in Madrid  📅")
 async def data_spaine(message: types.Message):
 	time = pytz.timezone('Europe/Madrid')
 	spanish_data =datetime.datetime.now(time)
